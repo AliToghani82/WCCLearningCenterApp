@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573635621275",
+    "project_id": "learningcenter-b59ff",
+    "storage_bucket": "learningcenter-b59ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573635621275:android:f451e3dafab9085454f13e",
+        "android_client_info": {
+          "package_name": "com.example.learningcenterappandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573635621275-h23hosrdnltaa086tjj298r0dsdad0ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_ZbJuXXQ9ZTua1xzX-BUJMGHwBmjPQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573635621275-h23hosrdnltaa086tjj298r0dsdad0ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

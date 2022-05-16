@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/admin_home">
+
+    <fragment
+        android:id="@+id/admin_home"
+        android:name="com.example.learningcenterappandroid.admin.home_admin.HomeAdminFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/admin_home" />
+
+    <fragment
+        android:id="@+id/admin_tutor"
+        android:name="com.example.learningcenterappandroid.admin.tutors_admin.TutorsAdminFragment"
+        android:label="Tutors"
+        tools:layout="@layout/admin_tutors" />
+
+    <fragment
+        android:id="@+id/admin_announcments"
+        android:name="com.example.learningcenterappandroid.admin.announcments_admin.AnnouncmentsAdminFragment"
+        android:label="Announcments"
+        tools:layout="@layout/admin_announcments" />
+
+    <fragment
+        android:id="@+id/admin_actives"
+        android:name="com.example.learningcenterappandroid.admin.active_admin.ActiveAdminFragment"
+        android:label="Active Tutors"
+        tools:layout="@layout/admin_actives" />
+    <fragment
+        android:id="@+id/admin_students"
+        android:name="com.example.learningcenterappandroid.admin.students_admin.StudentAdminFragment"
+        android:label="Students"
+        tools:layout="@layout/admin_students" />
+</navigation>

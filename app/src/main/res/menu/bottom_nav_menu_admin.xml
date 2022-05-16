@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/admin_tutor"
+        android:title="Tutors" />
+
+    <item
+        android:id="@+id/admin_announcments"
+        android:title="Announcments" />
+    <item
+        android:id="@+id/admin_students"
+        android:title="Students" />
+    <item
+        android:id="@+id/admin_actives"
+        android:title="Active Tutors" />
+
+</menu>

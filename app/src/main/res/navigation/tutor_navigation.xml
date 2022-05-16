@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/tutor_home">
+
+    <fragment
+        android:id="@+id/tutor_home"
+        android:name="com.example.learningcenterappandroid.tutor.home_tutor.HomeTutor"
+        android:label="@string/title_home"
+        tools:layout="@layout/tutor_home" />
+
+    <fragment
+        android:id="@+id/tutor_payroll"
+        android:name="com.example.learningcenterappandroid.tutor.Payroll_tutor.PayrollTutor"
+        android:label="payroll"
+        tools:layout="@layout/tutor_payroll" />
+
+    <fragment
+        android:id="@+id/tutor_requests"
+        android:name="com.example.learningcenterappandroid.tutor.requests_tutor.RequestsTutor"
+        android:label="RequestaTutor"
+        tools:layout="@layout/tutor_request" />
+
+    <fragment
+        android:id="@+id/tutor_settings"
+        android:name="com.example.learningcenterappandroid.tutor.settings_tutor.SettingsTutor"
+        android:label="Settings"
+        tools:layout="@layout/tutor_settings" />
+</navigation>
